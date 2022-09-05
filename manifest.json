@@ -1,0 +1,27 @@
+{
+    "start_url" : ".",
+    "name": "Definite Integration",
+    "short_name": "Definite Integration",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Definite Integration using Trapezoidal Rule",
+    "theme_color": "#fff",
+    "icons": [
+        {
+            "src": "./image/icon/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./image/icon/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./image/icon/icon.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
