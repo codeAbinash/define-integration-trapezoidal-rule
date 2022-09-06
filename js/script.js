@@ -21,8 +21,7 @@ accuracy.addEventListener("input", debounce(() => { accuracyNum.textContent = ac
 
 
 function calculateResult() {
-
-    resultDOM.style.display = 'flex'
+    // resultDOM.style.display = 'flex'
     resultDOM.classList.remove('err')
     resultDOM.textContent = 'Calculating . . .'
 
@@ -47,5 +46,5 @@ function calculateResult() {
 }
 
 function hideResult() {
-    resultDOM.style.display = 'none'
+    resultDOM.textContent = ''
 }

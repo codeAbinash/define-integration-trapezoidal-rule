@@ -36,7 +36,7 @@ body {
   background-color: var(--accent10);
   padding-block: 0.5em;
   border-radius: 5px;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.2em;
@@ -44,6 +44,9 @@ body {
 #main .form .result span.inSymbol {
   font-size: 1.7em;
   font-weight: 400;
+}
+#main .form .result:empty {
+  display: none;
 }
 #main .form .result.err {
   background-color: rgba(240, 0, 0, 0.1333333333);
@@ -56,7 +59,7 @@ body {
   color: #555;
 }
 #main .form .bottomTxt a {
-  color: limegreen;
+  color: var(--accent);
 }
 #main .form input[type=text],
 #main .form input[type=number] {
@@ -71,7 +74,7 @@ body {
 }
 #main .form input[type=text]:focus,
 #main .form input[type=number]:focus {
-  border-color: limegreen;
+  border-color: var(--accent);
 }
 #main .form input[type=range] {
   width: 100%;
@@ -93,9 +96,9 @@ body {
   border: none;
   aspect-ratio: 1/1;
   outline: none;
-  background: limegreen;
+  background: var(--accent);
   cursor: pointer;
-  box-shadow: calc(-100vmax - 5px) 0 0 100vmax limegreen;
+  box-shadow: calc(-100vmax - 5px) 0 0 100vmax var(--accent);
   -webkit-appearance: none;
 }
 #main .form input[type=range]::-moz-range-thumb {
@@ -105,9 +108,9 @@ body {
   border: none;
   outline: none;
   border-radius: 50%;
-  background: limegreen;
+  background: var(--accent);
   cursor: pointer;
-  box-shadow: calc(-100vmax - 5px) 0 0 100vmax limegreen, calc(100vmax - 5px) 0 0 100vmax #f0f0f0;
+  box-shadow: calc(-100vmax - 5px) 0 0 100vmax var(--accent), calc(100vmax - 5px) 0 0 100vmax #f0f0f0;
 }
 #main .form button {
   border: none;
@@ -119,7 +122,7 @@ body {
   margin-top: 2em;
   border-radius: 7px;
   transition: 200ms;
-  background-color: limegreen;
+  background-color: var(--accent);
   font-weight: 600;
   color: #fff;
   display: flex;
