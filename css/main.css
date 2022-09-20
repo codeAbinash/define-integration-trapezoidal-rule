@@ -1,6 +1,7 @@
 body {
   background-color: var(--bg);
   color: var(--txt);
+  overscroll-behavior-y: contain;
 }
 
 #main {
