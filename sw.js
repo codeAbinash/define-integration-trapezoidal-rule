@@ -4,7 +4,12 @@ const cacheData = {
         name: 'static-define-integration-trapezoidal-rule',
         urls: [
             './js/lib/fontawesome.js',
-            'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js'
+            'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js',
+            'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap',
+            'https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2',
+            'https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2',
+            'https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2',
+            'https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2'
         ]
     },
     dynamic: {
